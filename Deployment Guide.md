@@ -244,3 +244,12 @@ Docker Container (Flask App on Port 5000)
   ↓
 AWS EC2
 ```
+
+## 🔐 Security Notes
+
+```
+- SSH private keys (`.pem`, `id_ed25519`) are never committed to the repository.
+- EC2 public IPs are represented using placeholders.
+- GitHub authentication is handled via SSH keys.
+- No secrets or credentials are stored in the codebase.
+```
