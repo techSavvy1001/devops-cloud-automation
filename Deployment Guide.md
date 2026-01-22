@@ -106,7 +106,6 @@ Deploy the Dockerized application on AWS EC2.
 Set correct permissions for the key and connect to the EC2 instance.
 
 ```bash
-Copy code
 chmod 400 devops-key.pem
 ssh -i devops-key.pem ubuntu@<EC2_PUBLIC_IP>
 ```
@@ -229,7 +228,6 @@ Prepare the project for CI/CD using Jenkins.
 Commit and push Jenkins pipeline configuration.
 
 ```bash
-Copy code
 git add Jenkinsfile
 git commit -m "Enhanced Jenkins pipeline for Docker-based Deployment"
 git push
